@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: post
+  labels:
+    name: post
+spec:
+  containers:
+    - name: post
+      image: heet1996/post:0.0.1
+      resources:
+        limits:
+          memory: "128Mi"
+          cpu: "500m"
