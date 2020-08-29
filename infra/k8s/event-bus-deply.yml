@@ -5,11 +5,11 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: eventBus
+      app: event-bus
   template:
     metadata:
       labels:
-        app: eventBus
+        app: event-bus
     spec:
       containers:
       - name: event-bus
